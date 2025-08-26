@@ -1,17 +1,13 @@
 {
-  "devDependencies": {
-    "@wix/cli": "^1.0.0",
-    "@wix/eslint-plugin-cli": "^1.0.0",
-    "eslint": "^8.25.0",
-    "react": "16.14.0"
-  },
+  "name": "slushy-infinite-bee",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "@sendgrid/mail": "8.1.5",
-    "lodash": "4.17.21"
+    "parcel-bundler": "^1.6.1",
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "scripts": {
-    "postinstall": "wix sync-types",
-    "dev": "wix dev",
-    "lint": "eslint ."
-  }
+  "scripts": {},
+  "devDependencies": {}
 }
