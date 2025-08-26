@@ -32,17 +32,17 @@
 .navbar8-desktop-menu {
   flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
  
 .navbar8-links1 {
   gap: var(--dl-layout-space-twounits);
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: end;
   margin-left: var(--dl-layout-space-twounits);
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
  
 .navbar8-link31 {
